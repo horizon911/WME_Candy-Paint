@@ -2,7 +2,7 @@
 // @name            WME Reload Map Position Fix (Candy Remix)
 // @namespace       https://greasyfork.org/users/166843
 // @description     Updates the browser URL dynamically as you move the map.
-// @version         2026.03.13.2
+// @version         2026.03.13.3
 // @author          Horizon911
 // @contributor  dBsooner
 // @match           https://www.waze.com/*editor*
