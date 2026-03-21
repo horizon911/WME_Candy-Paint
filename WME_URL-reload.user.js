@@ -10,11 +10,11 @@
 // @exclude         https://www.waze.com/user/editor*
 // @icon            https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-rotate-right.svg
 // @grant           none
+// @updateURL       https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
+// @downloadURL     https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
 // @license         GPLv3
 // ==/UserScript==
 
-// updateURL       https://update.greasyfork.org/scripts/411069/WME%20Reload%20Map%20Position%20Fix.meta.js
-// downloadURL     https://update.greasyfork.org/scripts/411069/WME%20Reload%20Map%20Position%20Fix.user.js
 
 
 
