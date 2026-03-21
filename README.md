@@ -1,40 +1,29 @@
-# WME Open Maps
+# WME Reload Map Position Fix (Candy Remix)
 
-This userscript augments the [Waze Map Editor](https://www.waze.com/editor/) by adding additional maps such as the cadastre as layer. The maps available here are open data that can be used within commercial applications such as Waze.
+This userscript augments the [Waze Map Editor](https://www.waze.com/editor/) by dynamically tracking your map position and seamlessly restoring it upon reloading. It is a modernized, performance-optimized continuation of dBsooner's original and highly useful script, updated to comply with the modern WME SDK.
 
 ## How to use
 
-![Open Maps layers](https://www.tomputtemans.com/waze-scripts/images/Sidebar.png)
+Once installed, the script works entirely in the background. As you pan and zoom across the Waze Map Editor, your browser's address bar is safely and silently updated with your exact WGS84 GPS coordinates. 
 
-The script adds a tab with a selection list that will contain any maps that are available for the current view of the map. It is also possible to easily disable the satellite imagery in Waze from here should you have an alternative source of imagery active.
+If you accidentally close the tab or press the refresh button (F5), the script ensures that WME loads natively exactly where you left off. It also automatically strips out volatile object IDs (like selected segments or update requests) during movement, preventing WME from crashing with "404 Not Found" errors upon reload.
 
-![Open Maps map attributes](https://www.tomputtemans.com/waze-scripts/images/LayerAttributes.png)
-
-In the sidebar you can add, reorder and remove maps, change how transparent a map should be, decide which map layers should be loaded and query the map or a specific layer to retrieve more information from the map service (if available).
-
-![Open Maps layer drawer](https://www.tomputtemans.com/waze-scripts/images/LayerChooser.png)
-
-It is also possible to adjust the visibility of these maps within the usual layer drawer. These changes are considered to be temporary and will not be preserved over sessions.
-
-![Open Maps overview](https://www.tomputtemans.com/waze-scripts/images/Overview.png)
+*Note: There are no extra menus or buttons to click. The script strictly adheres to the modern WME SDK and uses debouncing to keep your editing experience clean, fast, and crash-free.*
 
 ## Installation instructions
 
-> TL;DR: install as most other WME userscripts from its Greasy Fork page: [INSTALL OPEN MAPS](https://greasyfork.org/scripts/13334-wme-openmaps)
+> TL;DR: Install via your preferred userscript manager from its Greasy Fork page: [Insert Greasy Fork Link Here]
 
-Userscripts are snippets of code that are executed after the loading of certain webpages. This script does this after the loading of the Waze Map Editor. In order to run userscripts in your browser, you are adviced to use Firefox or Google Chrome.
+Userscripts are snippets of code that are executed after the loading of certain webpages. In order to run userscripts in your browser, you are advised to use Firefox or Google Chrome.
 
-You will need to install an add-on that manages userscripts for this to work. There is TamperMonkey for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) and [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
+You will need to install an add-on that manages userscripts for this to work. A popular and reliable choice is Tampermonkey for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) and [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
 
-These add-ons will be visible in the browser with an additional button that is visible to the right of the address bar. Through this button it will be possible to maintain any userscripts you install.
+After installing Tampermonkey, simply navigate to the Greasy Fork link above and click the green install button. If you already have the Waze Map Editor open, please refresh the page for the script to take effect. 
 
-For WME Open Maps, you should be able to install the script at [Greasy Fork](https://greasyfork.org/scripts/13334-wme-openmaps). There will be a big green install button which you will have to press to install the script.
-__When installing userscripts always pay attention to the site(s) on which the script runs.__ This script only runs on Waze.com, so other sites will not be affected in any way.
-
-After installing a userscript, you will be able to find it working on the site(s) specified. Do note that if you had the page open before installing the userscript, you will first need to refresh the page.
-
-TamperMonkey will occasionally check for new versions of these scripts. You will get a notification when a new version has been found and installed.
+*This script is designed to run exclusively on Waze.com and will not affect your browsing on other websites.*
 
 ## Feedback and suggestions
 
-Any issues found can be reported at the [GitHub project page](https://github.com/Glodenox/wme-om/issues). A forum thread will be made later when more maps are added. If you want to propose a map to be added, please talk to one of your country champs. All proposed maps need to be open data. This means that they can be used for commercial use as well without any license. Often data sources provided by the government meet this requirement, but the license must be vetted carefully to be absolutely sure.
+This "Candy Remix" was built to restore functionality following Waze's transition to a new mapping engine and the deprecation of OpenLayers. All foundational credit belongs to the original author, dBsooner, whose original script saved countless editors so much time over the years. 
+
+If you encounter any bugs, have suggestions for improvement, or if WME goes through another major architectural update, please feel free to leave a comment on the Greasy Fork feedback page or submit a pull request. Contributions and forks to keep this tool alive are always welcome!
