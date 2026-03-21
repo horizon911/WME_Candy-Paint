@@ -13,9 +13,8 @@
 // @updateURL       https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
 // @downloadURL     https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
 // @license         GPLv3
+// @supportURL      https://github.com/horizon911/URL-reload-fix/issues
 // ==/UserScript==
-
-
 
 
 (() => {
