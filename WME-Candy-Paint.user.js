@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         WME Paint.NET Overhaul (Phase 16.9 - Fixes & Gray-outs)
+// @name         WME Candy paint
 // @namespace       https://github.com/horizon911
 // @version         2026.03.21.1
 // @description  Interactive Master Layer Dragging, Shape Popping/Reverting, FPS Monitor, Bug Fixes.
@@ -12,7 +12,7 @@
 // @updateURL       https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
 // @downloadURL     https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
 // @license         GPLv3
-// @supportURL      https://github.com/horizon911/URL-reload-fix/issues
+// @supportURL      https://github.com/horizon911/WME_Candy-Paint/issues
 // ==/UserScript==
 
 (function() {
