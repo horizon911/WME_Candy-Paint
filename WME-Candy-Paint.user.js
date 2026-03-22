@@ -7,13 +7,15 @@
 // @match        https://*.waze.com/editor*
 // @icon            https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lollipop/Flat/lollipop_flat.svg
 // @require      https://unpkg.com/polygon-clipping@0.15.3/dist/polygon-clipping.umd.js
-// @require      https://cdn.jsdelivr.net/gh/WazeSpace/wme-sdk-plus@main/dist/wme-sdk-plus.js
+// @require      https://cdn.jsdelivr.net/gh/WazeSpace/wme-sdk-plus@f09f4dfbcfa3a09d127cc6b85e964c5b54374ae0/dist/wme-sdk-plus.js
 // @grant        none
-// @updateURL       https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
-// @downloadURL     https://update.greasyfork.org/scripts/570596/WME%20Reload%20Map%20Position%20Fix%20%28Candy%20Remix%29.user.js
+// @updateURL       https://update.greasyfork.org/scripts/570650/WME%20Candy%20paint.user.js
+// @downloadURL     https://update.greasyfork.org/scripts/570650/WME%20Candy%20paint.user.js
 // @license         GPLv3
 // @supportURL      https://github.com/horizon911/WME_Candy-Paint/issues
 // ==/UserScript==
+
+//WME SDK Plus GitHub commits page: https://github.com/WazeSpace/wme-sdk-plus/commits/main
 
 (function() {
     'use strict';
